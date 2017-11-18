@@ -1,3 +1,4 @@
+require 'pry'
 require_relative 'grocer'
 
 def items
@@ -37,6 +38,18 @@ def generate_coupons
 		end
 	end
 end
+
+
+def apply_clearance(cart)
+  # code here
+end
+
+def checkout(cart, coupons)
+  # code here
+end
+
+
+
 
 cart = generate_cart
 coupons = generate_coupons
